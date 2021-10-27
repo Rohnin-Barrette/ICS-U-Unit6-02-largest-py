@@ -9,9 +9,9 @@ import random
 def largest_finder(number_list):
     # This function finds the largest number of an array
 
-    largest = number_list[9]
+    largest = number_list[0]
 
-    for loop_counter in range(0, 9):
+    for loop_counter in range(0, len(number_list)):
         if number_list[loop_counter] > largest:
             largest = number_list[loop_counter]
         else:
